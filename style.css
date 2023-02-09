@@ -25,6 +25,7 @@ ul {
     display: flex;
     align-items: center;
     gap: 16px;
+    justify-content: space-around;
 }
 
 h2 {
@@ -52,4 +53,10 @@ p {
     background-color: aliceblue;
     border-radius: 20px;
     padding: 5px;
+}
+
+button:hover {
+    background-color: rgb(75, 146, 173);
+    padding: 8px;
+    
 }
